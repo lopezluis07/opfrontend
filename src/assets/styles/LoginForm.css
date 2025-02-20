@@ -1,0 +1,83 @@
+/* frontend/src/components/LoginForm.css */
+
+.login-container {
+    background-image: url('../images/colomich.png'); /* Ruta de la imagen en la carpeta de assets */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-form {
+    background-color: rgba(161, 196, 133, 0.8); 
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+    width: 500px; /* Ancho personalizado */
+    text-align: center;
+  }
+  
+  .login-form h2 {
+    margin-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.password-container {
+  position: relative;
+} 
+
+.password-container .password-toggle-icon {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+
+.remember-me-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 18px;  /* Ajusta el tamaño del texto */
+}
+
+.remember-me-container input {
+  margin-right: 10px;
+}
+
+
+.remember-me-container input[type="checkbox"] {
+  width: 30px;  /* Ajusta el ancho del checkbox */
+  height: 25px; /* Ajusta la altura del checkbox */
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}

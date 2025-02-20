@@ -1,0 +1,103 @@
+/* General Container */
+.database-container {
+  padding: 15px;
+}
+
+/* Title Styles */
+.title {
+  margin: 0;
+  font-size: 30px;
+  text-align: left; /* Asegura que el título esté alineado a la izquierda */
+}
+
+/* Filters and Buttons Container */
+.filters-actions-container {
+  display: flex;
+  justify-content: space-between; /* Distribuye los filtros y botones a los lados */
+  align-items: center; /* Alinea verticalmente al centro */
+  margin-bottom: 16px; /* Espaciado inferior para separar de la tabla */
+  flex-wrap: wrap; /* Permite que los elementos se reorganicen en pantallas pequeñas */
+  gap: 10px; /* Espaciado entre los elementos */
+}
+
+/* Date Filters */
+.date-filters {
+  display: flex;
+  gap: 10px; /* Espaciado entre los selectores de fecha */
+}
+
+/* Export Buttons */
+.export-buttons {
+  display: flex;
+  gap: 10px; /* Espaciado entre los botones */
+}
+
+.ant-btn {
+  padding: 6px 12px; /* Ajusta el tamaño del botón */
+  font-size: 14px; /* Ajusta el tamaño de la fuente */
+}
+
+/* Table Styles */
+.table-container {
+  width: 100%;
+  overflow-x: auto; /* Permite desplazamiento horizontal en pantallas pequeñas */
+}
+
+.ant-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.ant-table th,
+.ant-table td {
+  border: 1px solid #ddd;
+  padding: 4px 8px; /* Reduce el padding para hacer la tabla más compacta */
+  text-align: center;
+}
+
+.ant-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.ant-table td {
+  font-size: 14px; /* Tamaño de texto más pequeño */
+}
+
+/* Center Table Wrapper */
+.ant-table-wrapper {
+  margin: auto;
+  max-width: 98%; /* Controla el ancho máximo de la tabla */
+}
+
+/* Button Hover Effects */
+.ant-btn-primary {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.ant-btn-primary:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  /* Filters and Buttons in Small Screens */
+  .filters-actions-container {
+    flex-direction: column; /* Reorganiza los elementos en columnas */
+    align-items: flex-start; /* Alinea los elementos a la izquierda */
+    gap: 16px; /* Espaciado vertical entre los elementos */
+  }
+
+  .export-buttons {
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  /* Reduce Font Sizes for Small Screens */
+  .ant-table td,
+  .ant-table th {
+    font-size: 12px; /* Tamaño de fuente más pequeño */
+  }
+}

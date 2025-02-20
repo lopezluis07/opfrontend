@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "./static/css/main.2e0712b8.css",
+    "main.js": "./static/js/main.aa531988.js",
+    "static/js/794.d5a58cb9.chunk.js": "./static/js/794.d5a58cb9.chunk.js",
+    "static/media/colomich.png": "./static/media/colomich.9fb02a742da61442ffd6.png",
+    "index.html": "./index.html",
+    "main.2e0712b8.css.map": "./static/css/main.2e0712b8.css.map",
+    "main.aa531988.js.map": "./static/js/main.aa531988.js.map",
+    "794.d5a58cb9.chunk.js.map": "./static/js/794.d5a58cb9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e0712b8.css",
+    "static/js/main.aa531988.js"
+  ]
+}
