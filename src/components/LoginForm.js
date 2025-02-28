@@ -18,7 +18,7 @@ const LoginForm = () => {
  
     try {
       // Realizar solicitud al backend para autenticar el usuario
-      const response = await axios.post('http://35.170.228.44:3001/api/login', {
+      const response = await axios.post('http://18.205.204.20:3001/api/login', {
         identificador: cedula,
         password,
       });

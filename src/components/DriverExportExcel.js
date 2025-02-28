@@ -10,7 +10,7 @@ export async function exportAllRecordsToExcel() {
         const token = localStorage.getItem("token");
 
         // 2. Hacer la solicitud al backend
-        const response = await axios.get("http://35.170.228.44:3001/api/conductores", {
+        const response = await axios.get("http://18.205.204.20:3001/api/conductores", {
             headers: {
                 Authorization: `Bearer ${token}`,
             },
