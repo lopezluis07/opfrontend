@@ -10,7 +10,7 @@ const ActivityManagement = () => {
     const [editingId, setEditingId] = useState(null);
 
     const axiosInstance = axios.create({
-        baseURL: "http://192.168.1.99:3001/api",
+        baseURL: "http://35.170.228.44:3001/api",
     });
 
     // Obtener actividades al cargar el componente

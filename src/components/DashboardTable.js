@@ -23,7 +23,7 @@ const DashboardTable = () => {
         const fetchData = async () => {
             const token = localStorage.getItem("token");
             try {
-                const response = await fetch("https://appsupervisores.juxn3.com/api/dashboard", {
+                const response = await fetch("http://35.170.228.44:3001/api/dashboard", {
                     method: "GET",
                     headers: {
                         "Content-Type": "application/json",

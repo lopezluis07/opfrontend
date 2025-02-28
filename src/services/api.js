@@ -4,10 +4,10 @@ import axios from 'axios';
 import { toast } from 'react-toastify';
 
 // Definir la URL base de la API
-const BASE_URL = 'http://localhost:3001/api';
+const BASE_URL = 'http://35.170.228.44:3001/api';
 
 // Crear una instancia de Axios con la URL base
-const api = axios.create({
+const api = axios.create({    
   baseURL: BASE_URL,
   headers: {
     'Content-Type': 'application/json',
